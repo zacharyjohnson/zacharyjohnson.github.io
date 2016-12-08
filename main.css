@@ -82,7 +82,8 @@ p {
 	margin-top: 1%;
 	width: 100%;
 	background-color: #374355;
-	display: inline;
+	height: auto;
+
 }
 
 .instaPicture{
@@ -101,4 +102,45 @@ p {
 
 #imagesToSocial {
 	margin: auto;
+}
+
+.instaPics{
+	margin-top: 1.5%;
+	margin-left: 1.5%;
+	height: 150px;
+	width: auto;
+	margin-bottom: 1%;
+	display: inline;
+}
+
+#experienceContainer{
+	margin-top: -1.75%;
+	text-align: center;
+	background-color: white;
+}
+
+#experienceLabel{
+	color: #374355;
+	font-weight: 400;
+}
+
+#employerLabel{
+	margin-top: -2%;
+	color: #374355;
+	font-weight: lighter;
+}
+
+#employerDetails{
+	color: #374355;
+	text-align: left;
+	margin-left: 40%;
+}
+
+#tempDiv{
+	width: 100%;
+	height: 50000px;
+}
+
+.anchorLink{
+	padding-top: 2%;
 }
