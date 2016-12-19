@@ -50,16 +50,50 @@
 		<div id="experienceContainer">
 			<a name="experience" class="anchorLink"></a>
 			<h1 id="experienceLabel">Experience</h1>
-			<h2 id="employerLabel">On Target Golf Improvement Academy</h3>
-			<ul id="employerDetails">
-				<li>
-					Hello
-				</li>
-				<li>
-					My friend
-				</li>
-			</ul>
+		  <div class="mySlides fade">
+				<h2 id="employerLabel">Nerdcrafteria Minecraft Server</h3>
+				<ul id="employerDetails">
+					<li>
+						Hello
+					</li>
+					<li>
+						My friend
+					</li>
+				</ul>
+		  </div>
+
+		  <div class="mySlides fade">
+				<h2 id="employerLabel">On Target Golf Improvement Academy</h3>
+				<ul id="employerDetails">
+					<li>
+						Hello
+					</li>
+					<li>
+						My friend
+					</li>
+				</ul>
+		  </div>
+
+		  <div class="mySlides fade">
+				<h2 id="employerLabel">Decatur County Community Schools</h3>
+				<ul id="employerDetails">
+					<li>
+						⇒	Launched a one-to-one iPad and Chromebook initiative to give elementary and high school students a personal device that enhances learning opportunities and experiences through the use of Google Drive, Docs, Sheets, and Slides
+
+					</li>
+					<li>
+						My friend
+					</li>
+				</ul>
+		  </div>
+
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
 		</div>
+
+
 
 		<div id="tempDiv">
 
@@ -67,5 +101,32 @@
 
 	</div>
 </body>
+
+<script>var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}</script>
 
 </html>
