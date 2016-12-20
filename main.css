@@ -131,11 +131,15 @@ p {
 	font-weight: lighter;
 }
 
-#employerDetails{
+#employerDetails, #courseworkList{
 	color: #374355;
 	text-align: left;
-	margin-left: 40%;
+	margin-left: 17%;
 	padding-bottom: 1%;
+}
+
+#courseworkList{
+	margin-left: 27%;
 }
 
 #tempDiv{
@@ -199,9 +203,12 @@ p {
 
 ul {
 	list-style: none;
-	
+
 }
 
+ul li{
+	width: 600px;
+}
 ul li:before {
   content: "⇒";
 }
