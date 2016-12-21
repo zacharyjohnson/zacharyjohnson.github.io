@@ -87,8 +87,8 @@ p {
 }
 
 .instaPicture{
-	margin-left: 1%;
-
+	margin: 0;
+	padding-left: 1%;
 }
 
 .socialPic, .socialPic1{
@@ -104,13 +104,18 @@ p {
 	margin: auto;
 }
 
-.instaPics{
+.instaPics, .instaPics1{
 	margin-top: 1.5%;
-	margin-left: 1.5%;
+	margin-left: 1.1%;
 	height: 150px;
 	width: auto;
 	margin-bottom: 1%;
+	margin-right: 0;
 	display: inline;
+}
+
+.instaPics1{
+	margin-left: 1.5%;
 }
 
 #experienceContainer{
@@ -175,8 +180,6 @@ p {
 	height: auto;
 }
 
-
-
 #skillsContainer h3 {
   font-weight: lighter;
 	color: #374355;
@@ -196,7 +199,7 @@ p {
 
 	margin: 0;
 	margin-top: -35%;
-	font-weight: bolder;
+	font-weight: 600;
 }
 
 .anchorLink{
