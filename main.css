@@ -120,10 +120,12 @@ p {
 	padding-bottom: 3%;
 }
 
-#experienceLabel{
+#experienceLabel, #skillsLabel{
 	color: #374355;
 	font-weight: 400;
 }
+
+
 
 #employerLabel{
 	margin-top: -2%;
@@ -145,6 +147,56 @@ p {
 #tempDiv{
 	width: 100%;
 	height: 50000px;
+}
+
+#skillsContainer{
+	text-align: center;
+	background-color: white;
+	margin-top: -15;
+}
+
+#skillsLabel {
+	margin-bottom: 1%;
+}
+
+.skill, .skill1{
+	display: inline-block;
+	margin: 0;
+	margin-left: -10.9%;
+	padding: 0;
+}
+
+.skill1{
+	margin: 0;
+}
+
+.skillChart{
+	width: 40%;
+	height: auto;
+}
+
+
+
+#skillsContainer h3 {
+  font-weight: lighter;
+	color: #374355;
+	margin: 0;
+	margin-top: 2%;
+}
+
+#createStatement{
+	margin-bottom: 12%;
+	color: #374355;
+	font-weight: normal;
+	font-size: 130%;
+}
+
+#skillsContainer p {
+	color: #D1335B;
+
+	margin: 0;
+	margin-top: -35%;
+	font-weight: bolder;
 }
 
 .anchorLink{
