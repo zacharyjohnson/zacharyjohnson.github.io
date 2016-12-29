@@ -18,6 +18,24 @@ h1{
 	padding-top: 1%;
 }
 
+.contactIcon{
+	height: auto;
+	width: 20px;
+	display: inline;
+}
+
+#contactIcons, #contactInfo{
+	display: inline-block;
+}
+
+#contactIcons{
+	padding-left: 90px;
+}
+
+#contactMeCard h3{
+	display: inline;
+}
+
 a:link {
 	color: white;
 	text-decoration: none;
@@ -126,7 +144,7 @@ p {
 	padding-bottom: 3%;
 }
 
-#experienceLabel, #skillsLabel{
+#experienceLabel, #skillsLabel, #contactLabel{
 	color: #374355;
 	font-weight: 400;
 }
@@ -142,7 +160,7 @@ p {
 #employerDetails, #courseworkList{
 	color: #374355;
 	text-align: left;
-	margin-left: 17%;
+	margin-left: 100px;
 	padding-bottom: 1%;
 }
 
@@ -210,10 +228,23 @@ p {
 #contactMeContainer{
 	background-color: white;
 	margin-top: -0.5%;
+	overflow: auto;
 }
 
 #contactMeCard, #googleMaps{
-	display: inline-block;
+	float: left;
+}
+
+#contactLabel{
+	margin: 0;
+	margin-top: 7px;
+	margin-bottom: 13px;
+	margin-left: 60px;
+}
+
+#contactMeCard {
+	padding-left: 20px;
+	margin: auto;
 }
 
 #contactMeCard h3 {
@@ -283,7 +314,7 @@ ul {
 }
 
 ul li{
-	width: 600px;
+	width: 780px;
 }
 ul li:before {
   content: "⇒";
