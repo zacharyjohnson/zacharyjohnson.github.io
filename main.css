@@ -3,9 +3,10 @@ body{
 	background-color: #EBEFF3;
 	color: white;
 	font-family: 'Roboto', 'Roboto Condensed', sans-serif;
+	padding: 5px;
 }
 
-div {
+div, #gogleMaps {
 	border-radius: 10px;
 }
 
@@ -187,6 +188,10 @@ p {
 	margin-top: 2%;
 }
 
+#introP{
+	width: 800px;
+}
+
 #createStatement{
 	margin-bottom: 12%;
 	color: #374355;
@@ -200,6 +205,22 @@ p {
 	margin: 0;
 	margin-top: -35%;
 	font-weight: 600;
+}
+
+#contactMeContainer{
+	background-color: white;
+	margin-top: -0.5%;
+}
+
+#contactMeCard, #googleMaps{
+	display: inline-block;
+}
+
+#contactMeCard h3 {
+	font-weight: lighter;
+	color: #374355;
+	margin: 0;
+	margin-top: 2%;
 }
 
 .anchorLink{
