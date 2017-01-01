@@ -149,7 +149,24 @@ p {
 	font-weight: 400;
 }
 
+#projectsContainer{
+	background-color: white;
+	margin-top: 1.5%;
+}
 
+#projectsContainer h3{
+	color: #374355;
+}
+
+.projectDetails{
+	display: inline-block;
+}
+
+.projectsImg{
+	height: 250px;
+	width: auto;
+	display: inline;
+}
 
 #employerLabel{
 	margin-top: -2%;
@@ -199,7 +216,7 @@ p {
 	height: auto;
 }
 
-#skillsContainer h3 {
+#skillsContainer h3, {
   font-weight: lighter;
 	color: #374355;
 	margin: 0;
@@ -252,10 +269,6 @@ p {
 	color: #374355;
 	margin: 0;
 	margin-top: 2%;
-}
-
-.anchorLink{
-	padding-top: 2%;
 }
 
 /* Next & previous buttons */
