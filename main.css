@@ -251,8 +251,23 @@ p {
 	color: #D1335B;
 
 	margin: 0;
-	margin-top: -35%;
+	margin-top: -49%;
 	font-weight: 600;
+	padding-bottom: 8%;
+}
+
+#skillsContainer a:link {
+	color: #374355;
+	text-decoration: none;
+}
+
+#skillsContainer a:visited {
+	color: #374355;
+	text-decoration: none;
+}
+
+#skillsContainer a:hover {
+	color: #374355;
 }
 
 #contactMeContainer{
