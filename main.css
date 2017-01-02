@@ -171,13 +171,34 @@ p {
 	padding-top: 300px;
 }
 
+#projectsContainer {
+	color: #374355;
+}
+
+#projectsContainer a:link, #projectsContainer a:visited {
+	color: #374355;
+}
+
+#projectsContainer a:hover {
+	color: #D1335B;
+}
+
 .projectDetails{
+
+	width: 500px;
 	display: inline-block;
 }
 
+.myProjects{
+	word-wrap: normal;
+}
+
 .projectsImg{
-	height: 250px;
-	width: auto;
+	margin: auto;
+}
+
+.projectImageDiv{
+	width: 500;
 	float: right;
 }
 
@@ -190,12 +211,17 @@ p {
 #employerDetails, #courseworkList{
 	color: #374355;
 	text-align: left;
-	margin-left: 100px;
+	margin-left: 80px;
 	padding-bottom: 1%;
+}
+
+#employerDetails {
+	width: 780px;
 }
 
 #courseworkList{
 	margin-left: 27%;
+
 }
 
 #tempDiv{
@@ -356,8 +382,9 @@ ul {
 }
 
 ul li{
-	width: 780px;
+
 }
+
 ul li:before {
   content: "⇒";
 }
