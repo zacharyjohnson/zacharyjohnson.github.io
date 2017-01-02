@@ -55,7 +55,13 @@
 
 		<div id="experienceContainer">
 			<a name="experience" class="anchorLink"></a>
-			<h1 id="experienceLabel">Experience</h1>
+			<br />
+			<center>
+				<a id="experienceNavigation" class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<h1 id="experienceLabel">Experience</h1>
+				<a id="experienceNavigation" class="next" onclick="plusSlides(1)">&#10095;</a>
+			</center>
+
 		  <div class="mySlides fade">
 				<h2 id="employerLabel">Nerdcrafteria Minecraft Server</h3>
 				<ul id="employerDetails">
@@ -119,19 +125,35 @@
 				</ul>
 			</div>
 
-		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-
 		</div>
 
 		<div id="projectsContainer">
-			<div class="projectSlides">
+			<a name="projects" class="anchorLink"></a>
+			<br />
+			<center>
+				<a id="projectNext" class="prev" onclick="plusProject(-1)">&#10094;</a>
+				<h1 id="projectsLabel">Projects</h1>
+				<a id="projectNext" class="next" onclick="plusProject(1)">&#10095;</a>
+			</center>
+			<br />
+
+			<div class="myProjects">
 				<div class="projectDetails">
 					<h3>Hello</h3>
 				</div>
 				<img src="Projects/Foilmaker.gif" class="projectsImg"/>
 			</div>
+
+			<div class="myProjects">
+				<div class="projectDetails">
+					<h3>Goodbye</h3>
+				</div>
+				<img src="Projects/discord.gif" class="projectsImg"/>
+			</div>
+
+
+
+
 		</div>
 
 		<div id="skillsContainer">
@@ -237,6 +259,34 @@ function currentSlide(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}</script>
+
+
+<script>var slideIndex = 1;
+showProject(slideIndex);
+
+function plusProject(n) {
+  showProject(slideIndex += n);
+}
+
+function currentProject(n) {
+  showProject(slideIndex = n);
+}
+
+function showProject(n) {
+  var i;
+  var slides = document.getElementsByClassName("myProjects");
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}

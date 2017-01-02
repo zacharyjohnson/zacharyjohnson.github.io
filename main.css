@@ -138,13 +138,17 @@ p {
 }
 
 #experienceContainer{
-	margin-top: -1.75%;
+	margin-top: 1.75%;
 	text-align: center;
 	background-color: white;
 	padding-bottom: 3%;
 }
 
-#experienceLabel, #skillsLabel, #contactLabel{
+#experienceNavigation, #experienceLabel {
+	display: inline;
+}
+
+#experienceLabel, #skillsLabel, #contactLabel, #projectsLabel{
 	color: #374355;
 	font-weight: 400;
 }
@@ -152,10 +156,19 @@ p {
 #projectsContainer{
 	background-color: white;
 	margin-top: 1.5%;
+	overflow: auto;
 }
 
 #projectsContainer h3{
 	color: #374355;
+}
+
+#projectNext, #projectsLabel {
+	display: inline;
+}
+
+#projectsContainer h1 {
+	padding-top: 300px;
 }
 
 .projectDetails{
@@ -165,11 +178,11 @@ p {
 .projectsImg{
 	height: 250px;
 	width: auto;
-	display: inline;
+	float: right;
 }
 
 #employerLabel{
-	margin-top: -2%;
+	margin-top: 2%;
 	color: #374355;
 	font-weight: lighter;
 }
@@ -278,6 +291,7 @@ p {
   width: auto;
   margin-top: -22px;
   padding: 16px;
+	padding-bottom: 0px;
 	margin-bottom: 122%;
   color: #374355;
   font-weight: bold;
