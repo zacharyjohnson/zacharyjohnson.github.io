@@ -14,6 +14,10 @@
     body{
       text-align: left;
     }
+    img {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
   </style>
 </head>
 <body>
@@ -40,16 +44,16 @@
 </nav>
 
 <!-- Introduction -->
-<div class="container">
+<div class="container-fluid text-left">
   <div class="row">
-    <div class="col-sm-0 col-md-1 col-lg-1" >
+    <div class="col-sm-0 col-md-2 col-lg-2" >
 
     </div>
-    <div class="col-sm-12 col-md-10 col-lg-10" >
+    <div class="col-sm-12 col-md-8 col-lg-8" >
       <h1 class="text-left" style="font-weight: bold">Color Match 🎨</h1>
       <h3 class="text-left aboutMeParagraph">Interaction Design, Visual Design, iOS Development</h3>
     </div>
-    <div class="col-sm-0 col-md-1 col-lg-1" >
+    <div class="col-sm-0 col-md-2 col-lg-2" >
 
     </div>
   </div>
@@ -63,7 +67,7 @@
     <div class="col-sm-0 col-md-2 col-lg-2">
       <!-- Leave blank for padding -->
     </div>
-    <div class="col-sm-12 col-md-8 col-lg-8 r1" >
+    <div class="col-sm-12 col-md-8 col-lg-8" >
       <h3 class="workIntro">Introduction</h3>
       <p>
         In the summer of 2017, after completing my freshman year at Purdue, I wanted to dive into a project to practice my user interaction, design skills, and development skills with a simple iOS game.
@@ -79,7 +83,7 @@
     <div class="col-sm-0 col-md-2 col-lg-2">
       <!-- Leave blank for padding -->
     </div>
-    <div class="col-sm-12 col-md-8 col-lg-8 r1" >
+    <div class="col-sm-12 col-md-8 col-lg-8" >
       <h3 class="workIntro">Inspiration</h3>
       <p>
         I’m fascinated by color theory. The complexities, interactions, and components of color are all incredibly interesting to me, so I wanted to create a game that used color as the main component.
@@ -95,7 +99,7 @@
     <div class="col-sm-0 col-md-2 col-lg-2">
       <!-- Leave blank for padding -->
     </div>
-    <div class="col-sm-12 col-md-8 col-lg-8 r1" >
+    <div class="col-sm-12 col-md-8 col-lg-8" >
       <h3 class="workIntro">Target Users</h3>
       <h4>NEEDS PICTURE, FORMATTING</h4>
       <p>
@@ -116,7 +120,7 @@
     <div class="col-sm-0 col-md-2 col-lg-2">
       <!-- Leave blank for padding -->
     </div>
-    <div class="col-sm-12 col-md-8 col-lg-8 r1" >
+    <div class="col-sm-12 col-md-8 col-lg-8" >
       <h3 class="workIntro">Game Design</h3>
       <p>
         My initial focus was on the gameplay. After some brainstorming on how to incorporate colors into a game, I decided to present the user with a gradient of random colors and the task to find a certain color in a progressively shortening period of time. I started sketching how the game would be set up:
@@ -130,10 +134,10 @@
     <div class="col-sm-0 col-md-1 col-lg-1">
       <!-- Leave blank for padding -->
     </div>
-    <div class="col-sm-6 col-md-5 col-lg-5 r1" >
+    <div class="col-sm-6 col-md-5 col-lg-5" >
       <img src="Case Studies/Color_Match/CM_Sketches_2.jpg" style="width: 100%; height: auto;"/>
     </div>
-    <div class="col-sm-6 col-md-5 col-lg-5 r1" >
+    <div class="col-sm-6 col-md-5 col-lg-5" >
       <img src="Case Studies/Color_Match/CM_Sketches_1.jpg" style="width: 100%; height: auto;"/>
     </div>
     <div class="col-sm-0 col-md-1 col-lg-1">
@@ -144,7 +148,7 @@
     <div class="col-sm-0 col-md-2 col-lg-2">
       <!-- Leave blank for padding -->
     </div>
-    <div class="col-sm-12 col-md-8 col-lg-8 r1" >
+    <div class="col-sm-12 col-md-8 col-lg-8" >
       <p>
         I decided to use the interaction on the screen as a component to increase difficulty. In the first, easiest mode of the game, a white bar contains a color and a slot in the middle so that it’s easier for the player to find the correct color. This limited the difficulty by limiting the axis of change to the x-axis. In more challenging modes, two-dimensional gradients and a circle would cause the player to find the correct color in a larger, more complex gradient through moving the circle along both the x and y axis.
       </p>
@@ -154,15 +158,109 @@
     </div>
   </div>
 
+  <!-- User Journey -->
+  <div class="row">
+    <div class="col-sm-0 col-md-2 col-lg-2">
+      <!-- Leave blank for padding -->
+    </div>
+    <div class="col-sm-12 col-md-8 col-lg-8" >
+      <h3 class="workIntro">User Journey</h3>
+      <p>
+        With the goal of keeping the game simple and easy to use for casual games, I tried to keep the number of screens to switch between to a minimum. I created a simple flow between a start screen and the game, with the start screen containing a scroll wheel to select the game mode. Though slightly unconventional for a game, I decided that the scroll wheel was the easiest method for a user to select a game mode and start the game from one screen.
+      </p>
 
+    </div>
+    <div class="col-sm-0 col-md-2 col-lg-2">
+      <!-- Leave blank for padding -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-0 col-md-1 col-lg-1">
+      <!-- Leave blank for padding -->
+    </div>
+    <div class="col-sm-12 col-md-10 col-lg-10" >
+      <img src="Case Studies/Color_Match/User_Journey.jpg" style="width: 100%; height: auto;"/>
+    </div>
+
+    <div class="col-sm-0 col-md-1 col-lg-1">
+      <!-- Leave blank for padding -->
+    </div>
+  </div>
+
+  <!-- Wireframing -->
+  <div class="row">
+    <div class="col-sm-0 col-md-2 col-lg-2">
+      <!-- Leave blank for padding -->
+    </div>
+    <div class="col-sm-12 col-md-8 col-lg-8" >
+      <h3 class="workIntro">Wireframing</h3>
+      <p>
+        Next, I created some wireframes to refine the individual screens.
+      </p>
+    </div>
+    <div class="col-sm-0 col-md-2 col-lg-2">
+      <!-- Leave blank for padding -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-0 col-md-1 col-lg-1">
+      <!-- Leave blank for padding -->
+    </div>
+    <div class="col-sm-12 col-md-10 col-lg-10" >
+      <img src="Case Studies/Color_Match/Wire Frame@2x.png" style="width: 100%; height: auto;"/>
+    </div>
+
+    <div class="col-sm-0 col-md-1 col-lg-1">
+      <!-- Leave blank for padding -->
+    </div>
+  </div>
+
+  <!-- Mockups -->
+  <div class="row">
+    <div class="col-sm-0 col-md-2 col-lg-2">
+      <!-- Leave blank for padding -->
+    </div>
+    <div class="col-sm-12 col-md-8 col-lg-8" >
+      <h3 class="workIntro">Mockups</h3>
+      <p>
+        NEEDS SOME PICS AND TEXT TBH
+      </p>
+    </div>
+    <div class="col-sm-0 col-md-2 col-lg-2">
+      <!-- Leave blank for padding -->
+    </div>
+  </div>
+
+
+  <!-- Outcome -->
+  <div class="row">
+    <div class="col-sm-0 col-md-2 col-lg-2">
+      <!-- Leave blank for padding -->
+    </div>
+    <div class="col-sm-12 col-md-8 col-lg-8" >
+      <h3 class="workIntro">Outcome</h3>
+      <p>
+        As this project was started as more of a coding and development project, I began developing a working prototype in XCODE with Swift. At this time, I had not fully discovered my passion for User Experience/Product design, so I did not complete many stages of the product development cycle that I wish I would have, such as initial user feedback to confirm the game, presenting the prototype friends, families, and strangers to gain feedback and iterate on the design, or narrowing the niche of the target users, but I leave this project in my portfolio as it was the spark for my discovery into design.
+        <br /><br />
+        I majored in Computer Science with the goal of becoming a front-end developer, but through researching this project, I discovered that most of what I have done on projects would be classified as user experience design and I began to hone-in my skills through taking the appropriate classes and additional research.
+
+      </p>
+    </div>
+    <div class="col-sm-0 col-md-2 col-lg-2">
+      <!-- Leave blank for padding -->
+    </div>
+  </div>
 
   <!-- Blank row for copying -->
   <div class="row">
     <div class="col-sm-0 col-md-2 col-lg-2">
       <!-- Leave blank for padding -->
     </div>
-    <div class="col-sm-12 col-md-8 col-lg-8 r1" >
+    <div class="col-sm-12 col-md-8 col-lg-8" >
+      <h3 class="workIntro"></h3>
+      <p>
 
+      </p>
     </div>
     <div class="col-sm-0 col-md-2 col-lg-2">
       <!-- Leave blank for padding -->
@@ -171,6 +269,9 @@
 
 </div>
 
+<center>
+  <!-- <h5>Designed and Built by Zach in Indiana</h5> -->
+</center>
 
 
 </body>
