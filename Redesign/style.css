@@ -68,9 +68,17 @@ color: #455C7B !important;
 .workSubTitle {
   font-family: "Open Sans";
   bottom: 10%;
+  text-shadow: 0px 1px 5px grey;
+}
+
+.workSelector:hover {
+  position: relative;
+  top: -1px;
+  box-shadow: 0px 2px 5px grey;
 }
 
 .workTitle {
   bottom: 18%;
   font-weight: bold;
+  text-shadow: 0px 1px 5px grey;
 }
