@@ -14,7 +14,7 @@ p {
 .aboutMeParagraph {
   font-family: "Open Sans";
   font-weight: lighter;
-  margin-top: -4px;
+  margin-top: 5px;
 }
 .r1 {
   margin-top: 30px;
@@ -45,7 +45,7 @@ color: #455C7B !important;
 }
 
 .navbar, .navbar-brand, .navbar-nav {
-  color: #455C7B !important;
+  color: #DA727E !important;
   font-family: "Playfair Display";
   font-size: 20px;
 }
@@ -54,8 +54,13 @@ color: #455C7B !important;
     /*color: #1abc9c !important;*/
 }
 
+h1{
+  color: #DA727E;
+}
+
 .workIntro {
   font-weight: bold;
+  color: #DA727E;
 }
 
 .workTitle, .workSubTitle {
