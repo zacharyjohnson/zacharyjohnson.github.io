@@ -4,7 +4,7 @@ body {
     line-height: 1.8;
     color: #455C7B;
 }
-p {
+p, ul {
   font-size: 16px;
   font-family: "Open Sans";
   font-weight: regular;
