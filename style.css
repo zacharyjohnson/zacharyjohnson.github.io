@@ -99,9 +99,8 @@ a:hover {
 .emoji {
   bottom: 18%;
   font-weight: bold;
-  position: absolute;
-  padding-left: 30px;
-  color: #ffffff;
+  padding: 12px;
+  color: #455C7B;
   padding-top: 0px;
 }
 
