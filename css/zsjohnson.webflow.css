@@ -544,7 +544,7 @@
 .case-study-subtitle {
   margin-top: -9px;
   font-family: 'Open Sans', sans-serif;
-  color: #9b9b9b;
+  color: #818181;
   font-size: 27px;
   line-height: 37px;
   font-weight: 300;
@@ -621,7 +621,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: hsla(0, 75%, 80%, .1);
+  background-color: rgba(157, 120, 165, .1);
 }
 
 .div-block-11 {
@@ -673,7 +673,7 @@
   margin-top: -9px;
   margin-bottom: 16px;
   font-family: 'Open Sans', sans-serif;
-  color: #9b9b9b;
+  color: #818181;
   font-size: 18px;
   line-height: 28px;
   font-style: normal;
@@ -846,6 +846,11 @@
   margin: 8px auto 32px;
 }
 
+.case-study-image.less {
+  max-height: 100%;
+  margin-bottom: 8px;
+}
+
 .div-block-14 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -939,7 +944,7 @@
 .section-7 {
   display: block;
   overflow: hidden;
-  width: 120%;
+  width: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -989,6 +994,7 @@
 .boilermake-top-div {
   display: block;
   overflow: hidden;
+  max-width: 100%;
   margin-top: 32px;
   padding-top: 0px;
   padding-bottom: 16px;
@@ -1023,9 +1029,13 @@
 }
 
 .columns {
-  margin-top: -16px;
+  margin-top: 0px;
   margin-bottom: 8px;
   padding-left: 16px;
+}
+
+.columns.less {
+  margin-bottom: 0px;
 }
 
 .image-12 {
@@ -1284,6 +1294,10 @@
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
+}
+
+.text-block-4 {
+  color: #818181;
 }
 
 @media (max-width: 991px) {
