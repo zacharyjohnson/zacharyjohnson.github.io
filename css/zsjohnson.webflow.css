@@ -1365,6 +1365,30 @@
   align-items: center;
 }
 
+.bold-text-17 {
+  font-weight: 600;
+}
+
+.bold-text-18 {
+  font-weight: 600;
+}
+
+.bold-text-19 {
+  font-weight: 600;
+}
+
+.bold-text-20 {
+  font-weight: 600;
+}
+
+.bold-text-21 {
+  font-weight: 600;
+}
+
+.bold-text-22 {
+  font-weight: 600;
+}
+
 @media (max-width: 991px) {
   .div-block-5 {
     max-height: 344px;
