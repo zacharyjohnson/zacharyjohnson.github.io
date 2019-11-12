@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="10px" viewBox="0 0 21 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Wireframes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-2" transform="translate(-331.000000, -2510.000000)" fill="#9F4197" fill-rule="nonzero">
+            <g id="NewTo.Design-Community" transform="translate(165.000000, 1880.000000)">
+                <g id="Group-2" transform="translate(0.000000, 623.000000)">
+                    <path id="Path" d="M183.955208,11.5 L177.618831,7.93578777 C177.378152,7.80040587 177.292792,7.49554832 177.428173,7.25486938 C177.563555,7.01419044 177.868413,6.92883033 178.109092,7.06421223 L186.109092,11.5642122 C186.448918,11.7553643 186.448918,12.2446357 186.109092,12.4357878 L178.109092,16.9357878 C177.868413,17.0711697 177.563555,16.9858096 177.428173,16.7451306 C177.292792,16.5044517 177.378152,16.1995941 177.618831,16.0642122 L183.955208,12.5 L166.787987,12.5 C166.511845,12.5 166.287987,12.2761424 166.287987,12 C166.287987,11.7238576 166.511845,11.5 166.787987,11.5 L183.955208,11.5 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
