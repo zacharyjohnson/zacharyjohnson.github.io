@@ -90,6 +90,14 @@ a {
   align-items: flex-start;
 }
 
+.custom-container.case-study-container.align-top.less-margin {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+}
+
 .custom-container.case-study-container.top-margin----32 {
   padding-top: 32px;
 }
@@ -850,6 +858,10 @@ a {
 
 .case-study-title-link {
   color: #000;
+}
+
+.case-study-title-link:hover {
+  text-decoration: underline;
 }
 
 .body {
