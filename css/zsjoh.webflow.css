@@ -1206,6 +1206,9 @@ a {
     margin-right: auto;
     margin-left: auto;
   }
+  .front-page-image-link {
+    margin-top: 16px;
+  }
   .illustrations-link.no-show-at-big {
     display: inline-block;
   }
@@ -1366,6 +1369,9 @@ a {
   }
   .case-study-body {
     padding-top: 144px;
+  }
+  .front-page-image-link {
+    margin-top: 16px;
   }
 }
 
