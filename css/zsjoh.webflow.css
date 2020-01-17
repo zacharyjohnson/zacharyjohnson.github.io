@@ -848,6 +848,10 @@ a {
   padding-top: 16px;
 }
 
+.bm-work-produced.sock {
+  padding-top: 0px;
+}
+
 .colorectal-cancer-factoid {
   display: -webkit-box;
   display: -webkit-flex;
