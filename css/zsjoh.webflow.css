@@ -240,6 +240,15 @@ a {
   text-decoration: none;
 }
 
+.link.cta-arrow.disabled {
+  color: rgba(159, 65, 151, 0.6);
+}
+
+.link.cta-arrow.disabled:hover {
+  padding-left: 0px;
+  color: rgba(131, 46, 124, 0.6);
+}
+
 .link.dribble-logo {
   max-width: 80%;
   margin-left: 0px;
@@ -526,7 +535,7 @@ a {
 }
 
 .case-study.left {
-  padding-right: 0px;
+  padding-right: 64px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
