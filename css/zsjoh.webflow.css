@@ -926,6 +926,11 @@ a {
   padding: 0px 20px 0px 0px;
 }
 
+.case-studies-drop-down.hide {
+  display: none;
+  overflow: visible;
+}
+
 .icon {
   margin-right: 0px;
 }
